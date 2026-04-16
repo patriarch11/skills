@@ -1,5 +1,7 @@
 ---
+name: dev-review
 description: Review an implemented change against the approved spec and plan. Use for final self-review before handoff and to decide whether another implementation-test-verify loop is needed.
+disable-model-invocation: true
 ---
 
 # Dev Review

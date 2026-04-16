@@ -1,5 +1,8 @@
 ---
-description: Orchestrate a full development workflow from freeform request to final review with phased artifacts and approval gates. Use for end-to-end coding work that starts from a description and pauses for approval after spec and plan phases.
+name: dev-workflow
+description: Orchestrate a full development workflow from freeform request to final review with phased artifacts and approval gates. The default entry point for end-to-end coding work.
+disable-model-invocation: true
+argument-hint: "[task description or paste task text]"
 ---
 
 # Dev Workflow

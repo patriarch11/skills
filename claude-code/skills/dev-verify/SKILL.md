@@ -1,5 +1,8 @@
 ---
+name: dev-verify
 description: Run existing repository checks after implementation to verify nothing is broken. Use for regression checking after code changes or test additions.
+disable-model-invocation: true
+allowed-tools: Bash
 ---
 
 # Dev Verify

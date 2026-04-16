@@ -1,5 +1,8 @@
 ---
-description: Create and update ADR files and AGENTS.md for code repositories. Use when the user wants to discover project structure, infer tooling, propose architectural decisions for documentation, or write an AGENTS.md that references the repository ADR set.
+name: repo-architecture
+description: Create and update ADR files and AGENTS.md for code repositories. Use to discover project structure, infer tooling, propose architectural decisions for documentation, or write an AGENTS.md that references the repository ADR set.
+disable-model-invocation: true
+argument-hint: "[ADR directory path]"
 ---
 
 # Repository Architecture Recorder

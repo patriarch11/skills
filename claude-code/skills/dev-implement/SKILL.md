@@ -1,5 +1,7 @@
 ---
-description: Implement code changes from an approved plan. Use when both spec and plan are approved and the agent should modify the repository accordingly, avoid scope creep, escalate boundary-breaking decisions, and return a concise change summary.
+name: dev-implement
+description: Implement code changes from an approved plan. Use when both spec and plan are approved and the agent should modify the repository, avoid scope creep, and return a concise change summary.
+disable-model-invocation: true
 ---
 
 # Dev Implement

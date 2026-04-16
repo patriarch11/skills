@@ -1,5 +1,8 @@
 ---
-description: Add or update tests for behavior introduced or changed by an implementation. Use when code changes are done and the agent should cover new behavior, edge cases, and touched logic with focused tests.
+name: dev-test
+description: Add or update tests for behavior introduced or changed by an implementation. Use when code changes are done and new behavior, edge cases, and touched logic need focused test coverage.
+disable-model-invocation: true
+allowed-tools: Bash
 ---
 
 # Dev Test

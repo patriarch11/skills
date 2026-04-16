@@ -1,5 +1,7 @@
 ---
-description: Turn an approved specification into an implementation plan. Use when the spec is approved and the agent should inspect the codebase, fit the change into the current architecture, identify affected files, choose the approach, and stop for approval before writing code.
+name: dev-plan
+description: Turn an approved specification into an implementation plan by inspecting the codebase. Use when the spec is approved and you need to identify affected files, choose the approach, and stop for approval before writing code.
+disable-model-invocation: true
 ---
 
 # Dev Plan

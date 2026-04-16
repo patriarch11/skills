@@ -1,5 +1,8 @@
 ---
+name: dev-spec
 description: Turn a freeform development request into an approved implementation specification. Use for feature requests, bug fixes, refactors, integrations, and API changes when the request is ambiguous or missing acceptance criteria.
+disable-model-invocation: true
+argument-hint: "[task description or paste task text]"
 ---
 
 # Dev Spec
