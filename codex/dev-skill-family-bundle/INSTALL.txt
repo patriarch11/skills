@@ -1,0 +1,17 @@
+
+Development skill family for Codex
+
+This bundle contains seven separately packaged skills:
+- dev-spec
+- dev-plan
+- dev-implement
+- dev-verify
+- dev-test
+- dev-review
+- dev-workflow
+
+Each subfolder contains an installable `skill.zip` because skill packaging validates one skill per package.
+Recommended usage:
+1. Install all seven skills.
+2. Use `dev-workflow` as the default entry point.
+3. Use the phase skills directly when you want to force a specific stage.
